@@ -1,7 +1,5 @@
-
-
 //funcion para generar la frase random
-function fraseRandom() {
+function phraseRandom() {
   let who = ["The dog", "My grandma", "The mailman", "My bird"];
   //0           1            2             3
   let action = ["ate", "peed", "crushed", "broke"];
@@ -27,7 +25,7 @@ function fraseRandom() {
 //cuando los elementos de la pagina esten cargados
 //ejecuta la funcion fraseRandom
 window.onload = function () {
-  fraseRandom();
+  phraseRandom();
 
 
 };
